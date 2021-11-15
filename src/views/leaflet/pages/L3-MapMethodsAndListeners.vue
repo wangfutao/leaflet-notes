@@ -96,8 +96,8 @@ export default class L3MapMethodsAndListeners extends Vue {
 }
 
 .map-container {
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 400px;
     margin-top: 20px;
     /*border: 1px solid #ddd;*/
 }
