@@ -40,7 +40,6 @@ export default class L7Geojson extends Vue {
     addGeojson() {
         this.removeGeojson();
 
-        let coors = [[34.263161, 108.948024], [39.90, 116.38], [30.599699, 114.325787]];
 
         //@ts-ignore
         this.geojson = new L.GeoJSON(shaanxiGeojson, {

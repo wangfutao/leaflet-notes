@@ -12,6 +12,7 @@ export class MenuConfig {
         Menu.createComponentMenu("7. 常用图层-Geojson", "/L7-Geojson", () => import('@/views/leaflet/pages/L7-Geojson.vue')),
         Menu.createComponentMenu("8. 图层组", "/L8-LayerGroup", () => import('@/views/leaflet/pages/L8-LayerGroup.vue')),
         Menu.createComponentMenu("9. 第三方插件推荐", "/L9-Plugins", () => import('@/views/leaflet/pages/L9-Plugins.vue')),
+        Menu.createComponentMenu("10. 北京污染传输分析", "/L10-ChuanShuFenXi", () => import('@/views/leaflet/pages/L10-ChuanShuFenXi.vue')),
         ];
 
     static toRouteRecordRawArray(): RouteRecordRaw[] {
